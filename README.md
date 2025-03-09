@@ -1,4 +1,6 @@
-# Folder Difference Checker
+# whereTheDifference
+
+## Folder Difference Checker
 
 This is a simple Python script that compares two directories and lists the subfolders that are unique to each directory.
 Very useful when have two similar folders with lots of subfolders and want to check the difference between them.
@@ -12,11 +14,11 @@ Very useful when have two similar folders with lots of subfolders and want to ch
 No external dependencies are required. Ensure you have Python installed (version 3.x recommended).
 
 ## Usage
-1. Save the script as `compare_folders.py`.
+1. Save the script as `whereTheDifference.py`.
 2. Open a terminal or command prompt.
 3. Run the script with the paths to the two folders you want to compare:
    ```sh
-   python compare_folders.py <folderA> <folderB>
+   python whereTheDifference.py <folderA> <folderB>
    ```
 
 ### Example
@@ -31,7 +33,7 @@ Folder `b` contains:
 ```
 #### Running:
 ```sh
-python compare_folders.py path/to/a path/to/b
+python whereTheDifference.py path/to/a path/to/b
 ```
 #### Output:
 ```
